@@ -631,10 +631,10 @@ html {
 }
 @media (max-width: 690px) {
   .navbar {
-    margin-top: 30px;
+    margin-top: 35px;
   }
   body {
-    margin-top: -30px;
+    margin-top: -40px;
     max-width: 690px;
   }
   max-width {
@@ -656,10 +656,10 @@ html {
     height: 105vh;
   }
   .navbar {
-    margin-top: 40px;
+    margin-top: 45px;
   }
   body {
-    margin-top: -40px;
+    margin-top: -50px;
   }
 }
 @media (max-width: 620px) {
@@ -668,10 +668,10 @@ html {
     height: 112vh;
   }
   .navbar {
-    margin-top: 49px;
+    margin-top: 54px;
   }
   body {
-    margin-top: -50px;
+    margin-top: -60px;
   }
 }
 @media (max-width: 600px) {
@@ -680,10 +680,10 @@ html {
     height: 113vh;
   }
   .navbar {
-    margin-top: 58px;
+    margin-top: 63px;
   }
   body {
-    margin-top: -60px;
+    margin-top: -70px;
   }
 }
 @media (max-width: 580px) {
@@ -692,13 +692,13 @@ html {
     height: 120vh;
   }
   .navbar {
-    margin-top: 75px;
+    margin-top: 80px;
   }
   .navbar .max-width {
     margin-bottom: -5px;
   }
   body {
-    margin-top: -75px;
+    margin-top: -85px;
   }
 }
 @media (max-width: 560px) {
@@ -707,13 +707,13 @@ html {
     height: 123vh;
   }
   .navbar {
-    margin-top: 85px;
+    margin-top: 90px;
   }
   .navbar .max-width {
     margin-bottom: -10px;
   }
   body {
-    margin-top: -80px;
+    margin-top: -90px;
   }
 }
 @media (max-width: 550px) {
@@ -722,14 +722,14 @@ html {
     height: 125vh;
   }
   .navbar {
-    margin-top: 95px;
+    margin-top: 100px;
   }
 
   .navbar .max-width .logo a {
     font-size: 30px;
   }
   body {
-    margin-top: -85px;
+    margin-top: -95px;
   }
   .home .max-width .home-content .text-1,
   .home .max-width .home-content .text-3,
@@ -746,10 +746,10 @@ html {
     height: 128vh;
   }
   .navbar {
-    margin-top: 105px;
+    margin-top: 110px;
   }
   body {
-    margin-top: -100px;
+    margin-top: -110px;
   }
 }
 @media (max-width: 500px) {
@@ -758,10 +758,10 @@ html {
     height: 132vh;
   }
   .navbar {
-    margin-top: 120px;
+    margin-top: 125px;
   }
   body {
-    margin-top: -115px;
+    margin-top: -125px;
   }
   body .title {
     font-size: 30px;
@@ -792,7 +792,7 @@ html {
     height: 143vh;
   }
   .navbar {
-    margin-top: 145px;
+    margin-top: 150px;
   }
   body {
     max-width: 415px;
@@ -812,11 +812,11 @@ html {
     height: 147vh;
   }
   .navbar {
-    margin-top: 157px;
+    margin-top: 162px;
   }
   body {
     max-width: 394px;
-    margin-top: -165px;
+    margin-top: -175px;
   }
   .services .max-width .serv-content .card img {
     max-width: 260px;
@@ -829,7 +829,7 @@ html {
     height: 149vh;
   }
   .navbar {
-    margin-top: 165px;
+    margin-top: 175px;
   }
   body {
     max-width: 376px;
