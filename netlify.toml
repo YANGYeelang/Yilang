@@ -1,4 +1,4 @@
 [[redirects]]
 form = "/*"
-to = "My web.html"
+to = "index.html"
 status = 200
