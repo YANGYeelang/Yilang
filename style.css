@@ -654,6 +654,19 @@ html {
     font-size: 27px;
   }
 }
+@media (max-width: 415px) {
+  body {
+    max-width: 410px;
+  }
+  .services .max-width .serv-content .card img {
+    max-width: 260px;
+    margin-left: -10px;
+  }
+  body .contact .max-width .contact-content {
+    display: flex;
+    flex-direction: column;
+  }
+}
 @media (max-width: 394px) {
   body {
     max-width: 388px;
