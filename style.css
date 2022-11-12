@@ -631,7 +631,7 @@ html {
 }
 @media (max-width: 690px) {
   .navbar {
-    margin-top: 10px;
+    margin-top: 15px;
   }
   body {
     margin-top: -20px;
@@ -652,7 +652,7 @@ html {
 }
 @media (max-width: 641px) {
   .navbar {
-    margin-top: 15px;
+    margin-top: 25px;
   }
   body {
     margin-top: -30px;
@@ -660,7 +660,7 @@ html {
 }
 @media (max-width: 620px) {
   .navbar {
-    margin-top: 25px;
+    margin-top: 30px;
   }
   body {
     margin-top: -40px;
@@ -668,7 +668,7 @@ html {
 }
 @media (max-width: 600px) {
   .navbar {
-    margin-top: 30px;
+    margin-top: 40px;
   }
   body {
     margin-top: -50px;
@@ -676,7 +676,10 @@ html {
 }
 @media (max-width: 580px) {
   .navbar {
-    margin-top: 35px;
+    margin-top: 50px;
+  }
+  .navbar .max-width {
+    margin-bottom: -5px;
   }
   body {
     margin-top: -55px;
@@ -684,7 +687,7 @@ html {
 }
 @media (max-width: 560px) {
   .navbar {
-    margin-top: 45px;
+    margin-top: 65px;
   }
   .navbar .max-width {
     margin-bottom: -10px;
@@ -695,7 +698,7 @@ html {
 }
 @media (max-width: 550px) {
   .navbar {
-    margin-top: 65px;
+    margin-top: 80px;
   }
 
   .navbar .max-width .logo a {
@@ -715,7 +718,7 @@ html {
 }
 @media (max-width: 517px) {
   .navbar {
-    margin-top: 75px;
+    margin-top: 90px;
   }
   body {
     margin-top: -90px;
@@ -723,7 +726,7 @@ html {
 }
 @media (max-width: 500px) {
   .navbar {
-    margin-top: 85px;
+    margin-top: 100px;
   }
   body {
     margin-top: -100px;
@@ -748,8 +751,8 @@ html {
   }
 }
 @media (max-width: 415px) {
-    .navbar {
-    margin-top: 100px;
+  .navbar {
+    margin-top: 120px;
   }
   body {
     max-width: 415px;
@@ -764,8 +767,12 @@ html {
   }
 }
 @media (max-width: 394px) {
+  .navbar {
+    margin-top: 133px;
+  }
   body {
-    max-width: 388px;
+    max-width: 394px;
+    margin-top: -145px;
   }
   .services .max-width .serv-content .card img {
     max-width: 260px;
@@ -773,8 +780,12 @@ html {
   }
 }
 @media (max-width: 376px) {
+  .navbar {
+    margin-top: 140px;
+  }
   body {
-    max-width: 375px;
+    max-width: 376px;
+    margin-top: -150px;
   }
   .services .max-width .serv-content .card img {
     max-width: 245px;
