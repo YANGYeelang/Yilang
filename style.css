@@ -656,7 +656,7 @@ html {
 }
 @media (max-width: 415px) {
   body {
-    max-width: 410px;
+    max-width: 415px;
   }
   .services .max-width .serv-content .card img {
     max-width: 260px;
