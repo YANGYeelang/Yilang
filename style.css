@@ -697,9 +697,7 @@ html {
   .navbar {
     margin-top: 65px;
   }
-  .navbar .max-width {
-    margin-bottom: -10px;
-  }
+
   .navbar .max-width .logo a {
     font-size: 30px;
   }
@@ -719,25 +717,20 @@ html {
   .navbar {
     margin-top: 75px;
   }
-  .navbar .max-width {
-    margin-bottom: -10px;
-  }
-  .navbar .max-width .logo a {
-    font-size: 30px;
-  }
   body {
     margin-top: -90px;
   }
-  .home .max-width .home-content .text-1,
-  .home .max-width .home-content .text-3,
-  .home .max-width .home-content a {
-    font-size: 20px;
-  }
-  .home .max-width .text-2 {
-    font-size: 40px;
-  }
 }
 @media (max-width: 500px) {
+  .navbar {
+    margin-top: 85px;
+  }
+  body {
+    margin-top: -100px;
+  }
+  body .title {
+    font-size: 30px;
+  }
   .home .home-content.text-2 {
     font-size: 50px;
   }
@@ -745,9 +738,22 @@ html {
     font-size: 27px;
   }
 }
+@media (max-width: 489px) {
+  body {
+    width: 489px;
+  }
+  body .contact .max-width .contact-content {
+    display: flex;
+    flex-direction: column;
+  }
+}
 @media (max-width: 415px) {
+    .navbar {
+    margin-top: 100px;
+  }
   body {
     max-width: 415px;
+    margin-top: -130px;
   }
   .about .max-width .about-content .right .text {
     font-size: 20px;
@@ -755,10 +761,6 @@ html {
   .services .max-width .serv-content .card img {
     max-width: 285px;
     margin-left: -10px;
-  }
-  body .contact .max-width .contact-content {
-    display: flex;
-    flex-direction: column;
   }
 }
 @media (max-width: 394px) {
@@ -769,10 +771,6 @@ html {
     max-width: 260px;
     margin-left: -10px;
   }
-  body .contact .max-width .contact-content {
-    display: flex;
-    flex-direction: column;
-  }
 }
 @media (max-width: 376px) {
   body {
@@ -781,9 +779,5 @@ html {
   .services .max-width .serv-content .card img {
     max-width: 245px;
     margin-left: -10px;
-  }
-  body .contact .max-width .contact-content {
-    display: flex;
-    flex-direction: column;
   }
 }
