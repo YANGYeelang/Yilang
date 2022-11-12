@@ -658,8 +658,11 @@ html {
   body {
     max-width: 415px;
   }
+  .about .max-width .about-content .right .text {
+    font-size: 20px;
+  }
   .services .max-width .serv-content .card img {
-    max-width: 260px;
+    max-width: 285px;
     margin-left: -10px;
   }
   body .contact .max-width .contact-content {
