@@ -630,11 +630,14 @@ html {
   }
 }
 @media (max-width: 690px) {
-  body {
+  /* * {
     max-width: 690px;
-  }
+  } */
   max-width {
     padding-top: 0 25px;
+  }
+  .home {
+    background-size: 108%;
   }
   .home .home-content .text-2 {
     font-size: 60px;
@@ -648,84 +651,41 @@ html {
 }
 @media (max-width: 641px) {
   .home {
-    background-size: 110%;
-    height: 113vh;
-  }
-  .navbar {
-    margin-top: 49px;
-  }
-  body {
-    margin-top: -55px;
+    background-size: 111%;
   }
 }
 @media (max-width: 620px) {
   .home {
-    background-size: 110%;
-    height: 116.5vh;
-  }
-  .navbar {
-    /* margin-top: 60px; */
-  }
-  body {
-    /* margin-top: -65px; */
+    background-size: 115%;
   }
 }
 @media (max-width: 600px) {
   .home {
-    background-size: 115%;
-    height: 113vh;
-  }
-  .navbar {
-    margin-top: 68px;
-  }
-  body {
-    margin-top: -75px;
+    background-size: 119%;
   }
 }
 @media (max-width: 580px) {
   .home {
-    background-size: 117%;
-    height: 120vh;
-  }
-  .navbar {
-    margin-top: 85px;
+    background-size: 123%;
   }
   .navbar .max-width {
     margin-bottom: -5px;
   }
-  body {
-    margin-top: -90px;
-  }
 }
 @media (max-width: 560px) {
   .home {
-    background-size: 121%;
-    height: 123vh;
-  }
-  .navbar {
-    margin-top: 95px;
+    background-size: 126%;
   }
   .navbar .max-width {
     margin-bottom: -10px;
   }
-  body {
-    margin-top: -95px;
-  }
 }
 @media (max-width: 550px) {
   .home {
-    background-size: 124%;
-    height: 125vh;
+    background-size: 133%;
   }
-  .navbar {
-    margin-top: 102px;
-  }
-
   .navbar .max-width .logo a {
     font-size: 30px;
-  }
-  body {
-    margin-top: -100px;
   }
   .home .max-width .home-content .text-1,
   .home .max-width .home-content .text-3,
@@ -738,26 +698,12 @@ html {
 }
 @media (max-width: 517px) {
   .home {
-    background-size: 132%;
-    height: 128vh;
-  }
-  .navbar {
-    margin-top: 115px;
-  }
-  body {
-    margin-top: -115px;
+    background-size: 137%;
   }
 }
 @media (max-width: 500px) {
   .home {
-    background-size: 135%;
-    height: 132vh;
-  }
-  .navbar {
-    margin-top: 129px;
-  }
-  body {
-    margin-top: -130px;
+    background-size: 141%;
   }
   body .title {
     font-size: 30px;
@@ -771,11 +717,7 @@ html {
 }
 @media (max-width: 489px) {
   .home {
-    background-size: 138%;
-    height: 132vh;
-  }
-  body {
-    width: 489px;
+    background-size: 166%;
   }
   body .contact .max-width .contact-content {
     display: flex;
@@ -784,58 +726,33 @@ html {
 }
 @media (max-width: 415px) {
   .home {
-    background-size: 163%;
-    height: 100vh;
-    border: 2px solid red;
-    /* margin-top: 0px; */
-  }
-  .navbar {
-    margin-top: 0px;
-  }
-  body {
-    max-width: 415px;
-    margin-top: -11px;
-    border: 2px solid red;
+    background-size: 175%;
   }
   .about .max-width .about-content .right .text {
     font-size: 20px;
   }
   .services .max-width .serv-content .card img {
-    max-width: 285px;
-    margin-left: -10px;
+    max-width: 95%;
   }
 }
 @media (max-width: 394px) {
   .home {
-    background-size: 172%;
-    height: 147vh;
+    background-size: 182%;
   }
-  .navbar {
-    margin-top: 166px;
-  }
-  body {
-    max-width: 394px;
-    margin-top: -180px;
-  }
-  .services .max-width .serv-content .card img {
-    max-width: 260px;
-    margin-left: -10px;
+  .about .max-width .about-content .right .text {
+    font-size: 19px;
   }
 }
 @media (max-width: 376px) {
   .home {
-    background-size: 180%;
-    height: 149vh;
+    background-size: 208%;
   }
-  .navbar {
-    margin-top: 179px;
+  .about .max-width .about-content .right .text {
+    font-size: 17px;
   }
-  body {
-    max-width: 376px;
-    margin-top: -175px;
-  }
-  .services .max-width .serv-content .card img {
-    max-width: 245px;
-    margin-left: -10px;
+}
+@media (max-width: 330px) {
+  .home {
+    background-size: 240%;
   }
 }
