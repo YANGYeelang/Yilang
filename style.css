@@ -630,11 +630,7 @@ html {
   }
 }
 @media (max-width: 690px) {
-  .navbar {
-    margin-top: 38px;
-  }
   body {
-    margin-top: -43px;
     max-width: 690px;
   }
   max-width {
@@ -653,7 +649,7 @@ html {
 @media (max-width: 641px) {
   .home {
     background-size: 110%;
-    height: 105vh;
+    height: 113vh;
   }
   .navbar {
     margin-top: 49px;
@@ -665,13 +661,13 @@ html {
 @media (max-width: 620px) {
   .home {
     background-size: 110%;
-    height: 112vh;
+    height: 116.5vh;
   }
   .navbar {
-    margin-top: 60px;
+    /* margin-top: 60px; */
   }
   body {
-    margin-top: -65px;
+    /* margin-top: -65px; */
   }
 }
 @media (max-width: 600px) {
@@ -789,14 +785,17 @@ html {
 @media (max-width: 415px) {
   .home {
     background-size: 163%;
-    height: 143vh;
+    height: 100vh;
+    border: 2px solid red;
+    /* margin-top: 0px; */
   }
   .navbar {
-    margin-top: 154px;
+    margin-top: 0px;
   }
   body {
     max-width: 415px;
-    margin-top: -165px;
+    margin-top: -11px;
+    border: 2px solid red;
   }
   .about .max-width .about-content .right .text {
     font-size: 20px;
