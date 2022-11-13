@@ -631,10 +631,10 @@ html {
 }
 @media (max-width: 690px) {
   .navbar {
-    margin-top: 35px;
+    margin-top: 38px;
   }
   body {
-    margin-top: -40px;
+    margin-top: -43px;
     max-width: 690px;
   }
   max-width {
@@ -656,10 +656,10 @@ html {
     height: 105vh;
   }
   .navbar {
-    margin-top: 45px;
+    margin-top: 49px;
   }
   body {
-    margin-top: -50px;
+    margin-top: -55px;
   }
 }
 @media (max-width: 620px) {
@@ -668,10 +668,10 @@ html {
     height: 112vh;
   }
   .navbar {
-    margin-top: 54px;
+    margin-top: 60px;
   }
   body {
-    margin-top: -60px;
+    margin-top: -65px;
   }
 }
 @media (max-width: 600px) {
@@ -680,10 +680,10 @@ html {
     height: 113vh;
   }
   .navbar {
-    margin-top: 63px;
+    margin-top: 68px;
   }
   body {
-    margin-top: -70px;
+    margin-top: -75px;
   }
 }
 @media (max-width: 580px) {
@@ -692,13 +692,13 @@ html {
     height: 120vh;
   }
   .navbar {
-    margin-top: 80px;
+    margin-top: 85px;
   }
   .navbar .max-width {
     margin-bottom: -5px;
   }
   body {
-    margin-top: -85px;
+    margin-top: -90px;
   }
 }
 @media (max-width: 560px) {
@@ -707,13 +707,13 @@ html {
     height: 123vh;
   }
   .navbar {
-    margin-top: 90px;
+    margin-top: 95px;
   }
   .navbar .max-width {
     margin-bottom: -10px;
   }
   body {
-    margin-top: -90px;
+    margin-top: -95px;
   }
 }
 @media (max-width: 550px) {
@@ -722,14 +722,14 @@ html {
     height: 125vh;
   }
   .navbar {
-    margin-top: 100px;
+    margin-top: 102px;
   }
 
   .navbar .max-width .logo a {
     font-size: 30px;
   }
   body {
-    margin-top: -95px;
+    margin-top: -100px;
   }
   .home .max-width .home-content .text-1,
   .home .max-width .home-content .text-3,
@@ -746,10 +746,10 @@ html {
     height: 128vh;
   }
   .navbar {
-    margin-top: 110px;
+    margin-top: 115px;
   }
   body {
-    margin-top: -110px;
+    margin-top: -115px;
   }
 }
 @media (max-width: 500px) {
@@ -758,10 +758,10 @@ html {
     height: 132vh;
   }
   .navbar {
-    margin-top: 125px;
+    margin-top: 129px;
   }
   body {
-    margin-top: -125px;
+    margin-top: -130px;
   }
   body .title {
     font-size: 30px;
@@ -792,11 +792,11 @@ html {
     height: 143vh;
   }
   .navbar {
-    margin-top: 150px;
+    margin-top: 154px;
   }
   body {
     max-width: 415px;
-    margin-top: -160px;
+    margin-top: -165px;
   }
   .about .max-width .about-content .right .text {
     font-size: 20px;
@@ -812,11 +812,11 @@ html {
     height: 147vh;
   }
   .navbar {
-    margin-top: 162px;
+    margin-top: 166px;
   }
   body {
     max-width: 394px;
-    margin-top: -175px;
+    margin-top: -180px;
   }
   .services .max-width .serv-content .card img {
     max-width: 260px;
@@ -829,11 +829,11 @@ html {
     height: 149vh;
   }
   .navbar {
-    margin-top: 175px;
+    margin-top: 179px;
   }
   body {
     max-width: 376px;
-    margin-top: -170px;
+    margin-top: -175px;
   }
   .services .max-width .serv-content .card img {
     max-width: 245px;
