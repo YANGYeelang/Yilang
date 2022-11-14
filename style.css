@@ -214,7 +214,7 @@ section {
 }
 .services .serv-content {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   text-align: center;
   flex-wrap: wrap;
 }
@@ -224,7 +224,7 @@ section {
   text-align: center;
   border-radius: 6px;
   cursor: pointer;
-  margin: top 20px;
+  margin-top: 20px;
   padding: 20px 25px;
   background-color: rgb(134, 84, 83);
 }
@@ -619,6 +619,7 @@ html {
   .services .serv-content .card {
     width: calc(50% -10px);
     margin-bottom: 20px;
+    margin-right: 1px;
   }
   .skills .skills-content .column {
     width: 100%;
@@ -630,9 +631,6 @@ html {
   }
 }
 @media (max-width: 690px) {
-  /* * {
-    max-width: 690px;
-  } */
   max-width {
     padding-top: 0 25px;
   }
@@ -644,9 +642,6 @@ html {
   }
   .home .home-content .text-3 {
     font-size: 32px;
-  }
-  .services .serv-content .card {
-    width: 100%;
   }
 }
 @media (max-width: 641px) {
@@ -731,8 +726,8 @@ html {
   .about .max-width .about-content .right .text {
     font-size: 20px;
   }
-  .services .max-width .serv-content .card img {
-    max-width: 95%;
+  .services .max-width .serv-content .card .box img {
+    max-width: 90%;
   }
 }
 @media (max-width: 394px) {
@@ -750,9 +745,15 @@ html {
   .about .max-width .about-content .right .text {
     font-size: 17px;
   }
+  footer span {
+    font-size: 15px;
+  }
 }
 @media (max-width: 330px) {
   .home {
     background-size: 240%;
+  }
+  footer span {
+    font-size: 14px;
   }
 }
