@@ -238,7 +238,7 @@ section {
   transform: scale(1.05);
 }
 .services .serv-content .card img {
-  width: 300px;
+  width: 250px;
   height: 200px;
   border-radius: 10px;
   /* border: 1px solid crimson; */
