@@ -753,6 +753,12 @@ html {
   .home {
     background-size: 240%;
   }
+   .about .max-width .about-content .right .text {
+    font-size: 15px;
+  }
+   .about .max-width .about-content .right p{
+    font-size: 13px;
+  }
   footer span {
     font-size: 14px;
   }
