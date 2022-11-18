@@ -703,7 +703,7 @@ html {
   body .title {
     font-size: 30px;
   }
-  .home .home-content.text-2 {
+  .home .home-content .text-2 {
     font-size: 50px;
   }
   .home .home-content .text-3 {
@@ -763,7 +763,7 @@ html {
     font-size: 14px;
   }
   .about .max-width .about-content .right p {
-    font-size: 12px;
+    font-size: 13px;
   }
   .contact .title::after {
     font-size: 16px;
@@ -778,6 +778,9 @@ html {
   }
   .skills .max-width .left p {
     font-size: 12px;
+  }
+  .contact .max-width .left p {
+    font-size: 13px;
   }
   footer span {
     font-size: 14px;
@@ -805,6 +808,9 @@ html {
   .teams .max-width .carousel .card .box p {
     font-size: 15px;
   }
+  footer span {
+    font-size: 13px;
+  }
 }
 @media (max-width: 282px) {
   .home {
@@ -814,6 +820,15 @@ html {
     font-size: 12px;
   }
   .about .max-width .about-content .right p {
+    font-size: 11px;
+  }
+  .home .max-width .home-content .text-2 {
+    font-size: 40px;
+  }
+  .home .max-width .home-content .text-3 {
+    font-size: 17px;
+  }
+  footer span {
     font-size: 11px;
   }
 }
