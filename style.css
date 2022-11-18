@@ -771,8 +771,14 @@ html {
   }
   .skills .title::after {
     font-size: 16px;
-  content: "What I know";
-}
+    content: "What I know";
+  }
+  .skills .max-width .left .text {
+    font-size: 15px;
+  }
+  .skills .max-width .left p {
+    font-size: 12px;
+  }
   footer span {
     font-size: 14px;
   }
@@ -790,10 +796,13 @@ html {
   .about .max-width .about-content .right a {
     font-size: 14px;
   }
-  .teams .max-width .carousel .card .box .text{
+  .services .max-width .card .box .text {
+    font-size: 17px;
+  }
+  .teams .max-width .carousel .card .box .text {
     font-size: 24px;
   }
-  .teams .max-width .carousel .card .box p{
+  .teams .max-width .carousel .card .box p {
     font-size: 15px;
   }
 }
