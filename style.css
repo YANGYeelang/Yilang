@@ -718,7 +718,7 @@ html {
     display: flex;
     flex-direction: column;
   }
-   .about .max-width .about-content .right .text {
+  .about .max-width .about-content .right .text {
     font-size: 22px;
   }
 }
@@ -748,21 +748,63 @@ html {
   .about .max-width .about-content .right .text {
     font-size: 17px;
   }
+  .services .max-width .serv-content .card .box img {
+    max-height: 140px;
+  }
   footer span {
     font-size: 15px;
   }
 }
-@media (max-width: 330px) {
+@media (max-width: 331px) {
   .home {
     background-size: 240%;
   }
-   .about .max-width .about-content .right .text {
-    font-size: 15px;
+  .about .max-width .about-content .right .text {
+    font-size: 14px;
   }
-   .about .max-width .about-content .right p{
-    font-size: 13px;
+  .about .max-width .about-content .right p {
+    font-size: 12px;
   }
+  .contact .title::after {
+    font-size: 16px;
+    content: "Get in touch";
+  }
+  .skills .title::after {
+    font-size: 16px;
+  content: "What I know";
+}
   footer span {
     font-size: 14px;
+  }
+}
+@media (max-width: 310px) {
+  .home {
+    background-size: 250%;
+  }
+  .about .max-width .about-content .right .text {
+    font-size: 13px;
+  }
+  .about .max-width .about-content .right p {
+    font-size: 11px;
+  }
+  .about .max-width .about-content .right a {
+    font-size: 14px;
+  }
+  .teams .max-width .carousel .card .box .text{
+    font-size: 24px;
+  }
+  .teams .max-width .carousel .card .box p{
+    font-size: 15px;
+  }
+}
+@media (max-width: 282px) {
+  .home {
+    background-size: 255%;
+  }
+  .about .max-width .about-content .right .text {
+    font-size: 12px;
+  }
+  .about .max-width .about-content .right p {
+    font-size: 11px;
   }
 }
